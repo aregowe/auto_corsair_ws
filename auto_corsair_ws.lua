@@ -1,6 +1,6 @@
 _addon.name    = 'auto_corsair_ws'
 _addon.author  = 'YourName'
-_addon.version = '2.0'
+_addon.version = '2.1'
 _addon.commands = {'corsws','acws'}
 
 -- Localize frequently-used functions for faster access
@@ -64,12 +64,12 @@ local function update_display()
     end
     
     local display_text = string_format(
-        'Auto Corsair WS\n' ..
-        '─────────────────────\n' ..
-        'WS: %s\n' ..
-        'TP Threshold: %d\n' ..
-        'Current TP: %d\n' ..
-        '─────────────────────',
+        'Auto Corsair WS\\n' ..
+        '\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\\n' ..
+        'WS: %s\\n' ..
+        'TP Threshold: %d\\n' ..
+        'Current TP: %d\\n' ..
+        '\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500',
         ws_name,
         tp_threshold,
         current_tp
@@ -80,41 +80,32 @@ end
 
 -- Weaponskill name mapping (short name -> full name)
 local ws_map = {
-    -- Marksmanship Weaponskills
+    -- Marksmanship Weaponskills (Corsair-accessible)
+    hotshot       = "Hot Shot",
+    splitshot     = "Split Shot",
+    snipershot    = "Sniper Shot",
+    slugshot      = "Slug Shot",
+    detonator     = "Detonator",
+    numbingshot   = "Numbing Shot",
     laststand     = "Last Stand",
     coronach      = "Coronach",
     wildfire      = "Wildfire",
-    hotshot       = "Hot Shot",
-    splitshot     = "Split Shot",
-    snipershott   = "Sniper Shot",
-    slugshot      = "Slug Shot",
-    blastshot     = "Blast Shot",
-    heavyshot     = "Heavy Shot",
-    detonator     = "Detonator",
-    numbing       = "Numbing Shot",
+    leaden        = "Leaden Salute",
+    terminus      = "Terminus",
     
     -- Sword Weaponskills
     savage        = "Savage Blade",
-    savageblade   = "Savage Blade",
-    sanguine      = "Sanguine Blade",
-    sanguineblade = "Sanguine Blade",
-    requiescat    = "Requiescat",
+    sang          = "Sanguine Blade",
+    req           = "Requiescat",
     chant         = "Chant du Cygne",
-    chantducygne  = "Chant du Cygne",
     vorpal        = "Vorpal Blade",
-    vortical      = "Vorpal Blade",
     swift         = "Swift Blade",
-    swiftblade    = "Swift Blade",
     circle        = "Circle Blade",
-    circleblade   = "Circle Blade",
-    redlotusblade = "Red Lotus Blade",
+    rlb           = "Red Lotus Blade",
     seraph        = "Seraph Blade",
-    seraphblade   = "Seraph Blade",
     shining       = "Shining Blade",
     fast          = "Fast Blade",
-    fastblade     = "Fast Blade",
     flat          = "Flat Blade",
-    flatblade     = "Flat Blade",
 }
 
 -- Build the weaponskill command with party announce
