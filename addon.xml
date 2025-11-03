@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon>
   <name>auto_corsair_ws</name>
-  <author>YourName</author>
-  <version>1.5</version>
+  <author>TheGwardian</author>
+  <version>2.1</version>
   <commands>
     <command>corsws</command>
+    <command>acws</command>
   </commands>
-  <description>Corsair Last Stand at 3000 TP</description>
+  <description>Auto Corsair WS - Automatic weaponskill execution at configurable TP thresholds with party announcements</description>
 </addon>

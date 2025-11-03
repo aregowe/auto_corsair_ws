@@ -81,13 +81,14 @@ Current Version: 2.1
 - Added Terminus (Prime WS)
 - Removed all duplicate shortcut entries
 - Cleaned up and shortened sword shortcuts
+- Updated author and version information
 
 ### v2.0
 - Initial release with basic Marksmanship and Sword support
 
 ## Author
 
-YourName
+TheGwardian
 
 ## License
 

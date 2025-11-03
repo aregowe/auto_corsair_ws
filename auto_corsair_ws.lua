@@ -1,5 +1,5 @@
 _addon.name    = 'auto_corsair_ws'
-_addon.author  = 'YourName'
+_addon.author  = 'TheGwardian'
 _addon.version = '2.1'
 _addon.commands = {'corsws','acws'}
 
@@ -64,12 +64,12 @@ local function update_display()
     end
     
     local display_text = string_format(
-        'Auto Corsair WS\\n' ..
-        '\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\\n' ..
-        'WS: %s\\n' ..
-        'TP Threshold: %d\\n' ..
-        'Current TP: %d\\n' ..
-        '\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500',
+        'Auto Corsair WS\n' ..
+        '─────────────────────\n' ..
+        'WS: %s\n' ..
+        'TP Threshold: %d\n' ..
+        'Current TP: %d\n' ..
+        '─────────────────────',
         ws_name,
         tp_threshold,
         current_tp
