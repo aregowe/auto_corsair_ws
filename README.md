@@ -38,32 +38,32 @@ local ws_cooldown   = 1.0         -- Min seconds between WS triggers
 
 ## Supported Weaponskill Shortcuts
 
-### Marksmanship Weaponskills
-- `laststand` → Last Stand
-- `coronach` → Coronach
-- `wildfire` → Wildfire
+### Marksmanship Weaponskills (Corsair-Accessible)
 - `hotshot` → Hot Shot
 - `splitshot` → Split Shot
-- `snipershott` → Sniper Shot
+- `snipershot` → Sniper Shot
 - `slugshot` → Slug Shot
-- `blastshot` → Blast Shot
-- `heavyshot` → Heavy Shot
 - `detonator` → Detonator
-- `numbing` → Numbing Shot
+- `numbingshot` → Numbing Shot
+- `laststand` → Last Stand (Merit)
+- `coronach` → Coronach (Relic)
+- `wildfire` → Wildfire (Empyrean)
+- `leaden` → Leaden Salute (Mythic - Corsair exclusive)
+- `terminus` → Terminus (Prime)
 
 ### Sword Weaponskills
-- `savage` / `savageblade` → Savage Blade
-- `sanguine` / `sanguineblade` → Sanguine Blade
-- `requiescat` → Requiescat
-- `chant` / `chantducygne` → Chant du Cygne
-- `vorpal` / `vortical` → Vorpal Blade
-- `swift` / `swiftblade` → Swift Blade
-- `circle` / `circleblade` → Circle Blade
-- `redlotusblade` → Red Lotus Blade
-- `seraph` / `seraphblade` → Seraph Blade
+- `savage` → Savage Blade
+- `sang` → Sanguine Blade
+- `req` → Requiescat
+- `chant` → Chant du Cygne
+- `vorpal` → Vorpal Blade
+- `swift` → Swift Blade
+- `circle` → Circle Blade
+- `rlb` → Red Lotus Blade
+- `seraph` → Seraph Blade
 - `shining` → Shining Blade
-- `fast` / `fastblade` → Fast Blade
-- `flat` / `flatblade` → Flat Blade
+- `fast` → Fast Blade
+- `flat` → Flat Blade
 
 ## Requirements
 
@@ -71,7 +71,19 @@ local ws_cooldown   = 1.0         -- Min seconds between WS triggers
 
 ## Version
 
-Current Version: 2.0
+Current Version: 2.1
+
+## Changelog
+
+### v2.1
+- Added all Corsair-accessible Marksmanship weaponskills
+- Added Leaden Salute (Mythic WS - Corsair exclusive)
+- Added Terminus (Prime WS)
+- Removed all duplicate shortcut entries
+- Cleaned up and shortened sword shortcuts
+
+### v2.0
+- Initial release with basic Marksmanship and Sword support
 
 ## Author
 
