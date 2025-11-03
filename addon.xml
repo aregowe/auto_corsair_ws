@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon>
+  <name>auto_corsair_ws</name>
+  <author>YourName</author>
+  <version>1.5</version>
+  <commands>
+    <command>corsws</command>
+  </commands>
+  <description>Corsair Last Stand at 3000 TP</description>
+</addon>
